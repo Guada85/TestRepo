@@ -17,7 +17,7 @@ public class AlienEntity extends Entity {
 			game.updateLogic();
 		}
 		
-		// and vice vesa, if we have reached the right hand side of 
+		// and vice versa, if we have reached the right hand side of 
 		// the screen and are moving right, request a logic update
 		if ((dx > 0) && (x > 750)) {
 			game.updateLogic();
